@@ -476,9 +476,13 @@ li span a:hover {
     letter-spacing: 1.2;
     color: #fff;
 }
+#contact-body{
+    background: linear-gradient(#121212,#212b46);
+}
 #subtitle{
     color: #6c63ff;
     font-weight: bold;
+    margin-left: 0;
 }
 .contact-des {
     letter-spacing: 0.2;
@@ -491,7 +495,9 @@ li span a:hover {
 .form-group {
     margin-bottom: 1rem;
 }
-
+.label{
+    color:#ffff;
+}
 label {
     display: inline-block;
     margin-bottom: 0.5rem;
@@ -549,8 +555,9 @@ label {
     border: 2px solid #fdfdfd;
 }
 
+
 .contact-btn {
-    margin-left: 6px;
+    margin-left: 1px;
     padding: 5px 10px;
     color: #fff;
     background: none;
@@ -715,9 +722,7 @@ li span:hover:after {
         width: 100%;
     }
 
-    #hero-right {
-        display: none;
-    }
+  
     .work-double-row{
         padding-left: 30px;
         padding-right: 30px;
@@ -748,7 +753,7 @@ li span:hover:after {
         width: 0;
         height: 0;
         display: none;
-    }
+    }    
     .work-double-row{
         padding:30px 20px;
         padding-bottom: 0;
@@ -772,6 +777,7 @@ li span:hover:after {
     #left-hero {
         padding-left: 50px;
         ;
+       
     }
 
     #work-row {
@@ -787,20 +793,14 @@ li span:hover:after {
         float: none;
     }
 
-    #logo {
-        display: none;
-        /* height: 65%;
-        margin-top: 28px; */
-    }
+  
 
     .hero-tag {
         margin-top: 20vh;
         font-size: 4em;
     }
 
-    #hero-right {
-        display: none;
-    }
+   
 
     .hero-des {
         padding-right: 30px;
@@ -903,7 +903,7 @@ span a {
 }
 .icones a i {
     font-size: 40px;
-    margin-top: 10px;
+    
     margin: 5px;
    
     color: #fff;
