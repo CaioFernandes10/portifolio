@@ -496,7 +496,7 @@ li span a:hover {
     margin-bottom: 1rem;
 }
 .label{
-    color:#ffff;
+    color:#fff;
 }
 label {
     display: inline-block;
@@ -722,7 +722,9 @@ li span:hover:after {
         width: 100%;
     }
 
-  
+    #hero-right {
+        display: none;
+    }
     .work-double-row{
         padding-left: 30px;
         padding-right: 30px;
@@ -753,7 +755,7 @@ li span:hover:after {
         width: 0;
         height: 0;
         display: none;
-    }    
+    }
     .work-double-row{
         padding:30px 20px;
         padding-bottom: 0;
@@ -777,7 +779,6 @@ li span:hover:after {
     #left-hero {
         padding-left: 50px;
         ;
-       
     }
 
     #work-row {
@@ -793,14 +794,20 @@ li span:hover:after {
         float: none;
     }
 
-  
+    #logo {
+        display: none;
+        /* height: 65%;
+        margin-top: 28px; */
+    }
 
     .hero-tag {
         margin-top: 20vh;
         font-size: 4em;
     }
 
-   
+    #hero-right {
+        display: none;
+    }
 
     .hero-des {
         padding-right: 30px;
