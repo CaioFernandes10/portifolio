@@ -343,7 +343,7 @@ li span a:hover {
     width: 100%;
     height: 2px;
     z-index: 1;
-    background: black;
+    background: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -700,7 +700,8 @@ li span:hover:after {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background: linear-gradient(#121212,#212b46)
+    background: linear-gradient(#121212,#212b46);
+    overflow-y: scroll;
     
 }
 
@@ -734,8 +735,8 @@ li span:hover:after {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 100vh;
-        width: 100vw;
+        height: auto;
+        width: auto;
     }
     /* .work-double-row{
         padding-left: 50px;
@@ -751,6 +752,14 @@ li span:hover:after {
 @media only screen and (max-width: 768px) {
 
     /* For mobile phones: */
+    #index-body {
+        /*         background: url('assets/img/mobile.png'); */
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: auto;
+                width: auto;
+            }
     .nav-items {
         width: 0;
         height: 0;
@@ -779,6 +788,10 @@ li span:hover:after {
     #left-hero {
         padding-left: 50px;
         ;
+        background: linear-gradient(#121212,#212b46);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     #work-row {
